@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  padding: 1rem;
+}
+
+a.button {
+  background: #dfba9f;
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 500;
+  transition: ease all .3s;
+  display: inline-block;
+  cursor: pointer;
+
+  &:hover {
+    background: #111;
+    color: #fff;
+  }
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+}
+
+
+.slogan {
+  text-align: center;
+  h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1.4rem;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  &.black {
+    background: #13363B;
+    color: #fff;
+    h3 {
+      color: #dfba9f;
+    }
+  }
+}
+
+.home-offers {
+  background: #fff;
+  .container {
+    display: grid;
+    grid-gap: 2.5rem 2rem;
+    grid-template: 1fr / 1fr;
+
+    .offer {
+      text-align: center;
+      padding: 2.5rem 0;
+      img {
+        display: inline-block;
+        margin-bottom: 1.5rem;
+      }
+      h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        color: #888;
+      }
+    }
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, span, a {
+  font-family: 'Quicksand', sans-serif;
+}
