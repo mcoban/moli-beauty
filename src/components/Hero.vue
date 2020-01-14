@@ -1,8 +1,8 @@
 <template>
   <div id="hero">
     <div class="images">
-      <div class="image"><img src="https://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_03.jpg" alt="Resim1" /></div>
-      <div class="image"><img src="https://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_04.jpg" alt="Resim2" /></div>
+      <div class="image"><img src="http://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_03.jpg" alt="Resim1" /></div>
+      <div class="image"><img src="http://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_04.jpg" alt="Resim2" /></div>
     </div>
     <div class="content">
       <div class="inner">
