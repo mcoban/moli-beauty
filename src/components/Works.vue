@@ -6,7 +6,7 @@
         <span class="title">Cilt <span class="hi">Bakımı</span></span>
       </a>
       <a href="#" class="work">
-        <img src="../assets/images/lazer-epilasyon.jpg" alt="Lazer Epilasyon">
+        <img src="../assets/images/lazer-epilasyon.jpg" alt="Lazer Epilasyon" >
         <span class="title">Lazer <span class="hi">Epilasyon</span></span>
       </a>
       <a href="#" class="work">
@@ -47,7 +47,9 @@
     grid-gap: 1.5rem;
     .work {
       img {
-        height: 240px;
+        width: 100%;
+        object-fit: cover;
+        height: 210px;
         display: block;
         transition: ease all .3s;
 
