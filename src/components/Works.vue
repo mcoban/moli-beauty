@@ -44,12 +44,14 @@
     padding: 2rem;
     display: grid;
     grid-template: 1fr / 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
+    box-sizing: border-box;
     .work {
+      display: block;
       img {
         width: 100%;
         object-fit: cover;
-        height: 210px;
+        height: 200px;
         display: block;
         transition: ease all .3s;
 

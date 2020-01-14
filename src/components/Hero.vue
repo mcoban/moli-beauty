@@ -18,11 +18,11 @@
 #hero {
   background: #f9e8dc;
   box-sizing: border-box;
-  padding: 3rem;
-  min-height: calc(100vh - 150px);
+  padding: 2rem 3rem;
+  height: 600px;
   display: grid;
   grid-gap: 1rem;
-  grid-template: 5fr 5fr / 1fr;
+  grid-template: 4fr 2fr / 1fr;
 
   .content {
     text-align: center;

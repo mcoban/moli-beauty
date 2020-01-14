@@ -23,7 +23,7 @@
       justify-content: center;
       align-items: center;
       img {
-        max-height: 90px;
+        max-height: 60px;
       }
     }
   }
