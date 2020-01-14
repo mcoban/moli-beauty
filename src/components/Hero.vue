@@ -1,12 +1,12 @@
 <template>
   <div id="hero">
     <div class="images">
-      <div class="image"><img src="http://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_03.jpg" alt="Resim1" /></div>
-      <div class="image"><img src="http://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_04.jpg" alt="Resim2" /></div>
+      <div class="image"><img src="https://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_03.jpg" alt="Resim1" /></div>
+      <div class="image"><img src="https://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_04.jpg" alt="Resim2" /></div>
     </div>
     <div class="content">
       <div class="inner">
-        <h3>this is the title</h3>
+        <h3>Profesyonel Makyaj</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur.</p>
         <a class="button">Read More</a>
       </div>
@@ -22,7 +22,7 @@
   min-height: calc(100vh - 150px);
   display: grid;
   grid-gap: 1rem;
-  grid-template: 6fr 5fr / 1fr;
+  grid-template: 5fr 5fr / 1fr;
 
   .content {
     text-align: center;

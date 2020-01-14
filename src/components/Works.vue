@@ -47,8 +47,7 @@
     grid-gap: 1.5rem;
     .work {
       img {
-        max-width: 100%;
-        max-height: 240px;
+        height: 240px;
         display: block;
         transition: ease all .3s;
 
@@ -60,9 +59,9 @@
         background: #13363B;
         color: #fff;
         text-align: center;
-        padding: 1rem 1.5rem;
+        padding: 1rem 2rem;
         display: block;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         line-height: 1.3;
         .hi {
           color: #eba573;
