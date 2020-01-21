@@ -21,4 +21,9 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Quicksand&display=swap'
   })
+  head.meta.push({
+    name: 'yandex-verification',
+    key: 'yandex-verification',
+    content: '9f0d94174483dd56'
+  })
 }
