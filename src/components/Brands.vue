@@ -27,5 +27,17 @@
       }
     }
   }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      grid-template: 2fr / repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      grid-template: 2fr / repeat(6, 1fr);
+    }
+  }
 }
 </style>

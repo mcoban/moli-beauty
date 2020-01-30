@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="inner">
-      <a href="#">
+      <a href="/">
         <img 
           src="../assets/images/logo.png" 
           srcset="../assets/images/logo_2x.png 2x"
@@ -11,10 +11,10 @@
       <nav class="header-menu">
         <a @click="menuClicked = !menuClicked" :class="['menu-button', { 'clicked': menuClicked }]"><img src="../assets/images/menu.svg" alt="Mobile Menu" height="32"></a>
         <ul :class="{ 'block': menuClicked }">
-          <li><a href="#">Hakkımızda</a></li>
-          <li><a href="#">Hizmetlerimiz</a></li>
-          <li><a href="#">Galeri</a></li>
-          <li><a href="#">İletişim</a></li>
+          <li><a href="/hakkimizda/">Hakkımızda</a></li>
+          <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+          <!-- <li><a href="#">Galeri</a></li> -->
+          <li><a href="/iletisim/">İletişim</a></li>
         </ul>
       </nav>
     </div>
@@ -55,7 +55,7 @@ header {
         position: absolute;
         background: #f9e8dc;
         left: 0;
-        top: 92px;
+        top: 90px;
         width: 100%;
         height: 100%;
         padding: 2rem;

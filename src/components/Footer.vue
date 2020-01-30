@@ -3,7 +3,7 @@
     <div class="container">
       <div class="item">
         <img src="../assets/images/footer-logo.png" alt="Logo">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, suscipit.</p>
+        <p>Estetiğin ve güzelliğin adresi</p>
         <div class="social-icons">
           <a href="#"><img src="../assets/images/icons/social/facebook.svg" alt="Facebook" height="30"></a>
           <a href="#"><img src="../assets/images/icons/social/instagram.svg" alt="Instagram" height="30"></a>
@@ -15,21 +15,25 @@
         <div class="address">
           <div class="line">
             <img src="../assets/images/icons/pin.svg" alt="adres" height="20">
-            <span>Açık adres bilgileri</span>
+            <span>Prof Dr Ahmet Taner Kışlalı mahallesi 2716 cadde No:4 Çankaya/Ankara</span>
           </div>
           <div class="line">
             <img src="../assets/images/icons/phone.svg" alt="adres" height="20">
-            <span>123-1234567</span>
+            <span><a href="tel: 0850-304-6654">0850-304-6654</a></span>
           </div>
           <div class="line">
             <img src="../assets/images/icons/mail.svg" alt="adres" height="20">
-            <span><a href="#">info@molibeauty.com</a></span>
+            <span><a href="mailto: info@molibeauty.com">info@molibeauty.com</a></span>
           </div>
         </div>
       </div>
     </div>
     <div class="dark">
       Moli Beauty bir Bimobil firması ürünüdür.
+    </div>
+
+    <div class="call-button">
+      <a href="tel: 0850-304-6654"><img src="../assets/images/phone.svg" alt="Ara" height="16"> Hemen Ara!</a>
     </div>
   </footer>
 </template>
@@ -69,7 +73,7 @@ footer {
 
       .title {
         color: #f9e8dc;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 500;
         margin-bottom: 2rem;
       }
@@ -95,5 +99,47 @@ footer {
     font-family: 'Quicksand', sans-serif;
     font-size: .9rem;
   }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      grid-template: 1fr / 1fr 1fr;
+      grid-gap: 3rem;
+      
+      .item {
+        .social-icons {
+          margin-top: 2rem;
+        }
+
+        &.contact {
+          .line {
+            margin-bottom: 1rem;
+            img {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .call-button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #5f1767;
+    color: #fff;
+    
+    a {
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+      font-weight: 800;
+    }
+    @media screen and (min-width: 500px) {
+      display: none;
+    }
+  }
+
 }
 </style>

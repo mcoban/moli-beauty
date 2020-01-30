@@ -1,14 +1,18 @@
 <template>
   <div id="hero">
     <div class="images">
-      <div class="image"><img src="http://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_03.jpg" alt="Resim1" /></div>
-      <div class="image"><img src="http://sana.like-themes.com/wp-content/uploads/2017/07/slide_make_04.jpg" alt="Resim2" /></div>
+      <div class="image">
+        <img src="../assets/images/home-cover/slide-1.jpg" alt="Resim1" />
+      </div>
+      <div class="image">
+        <img src="../assets/images/home-cover/slide-2.jpg" alt="Resim1" />
+      </div>
     </div>
     <div class="content">
       <div class="inner">
-        <h3>Profesyonel Makyaj</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aspernatur.</p>
-        <a class="button">Read More</a>
+        <h3>Moli ile Güzelleş!</h3>
+        <p>Profesyonel makyajın doğru adresi Moli Beauty ile güzelliğinize güzellik katın.</p>
+        <!-- <a class="button">Read More</a> -->
       </div>
     </div>
   </div>
@@ -48,8 +52,46 @@
       img {
         max-height: 100%;
         max-width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }
+
+  @media screen and (min-width: 768px) {
+    grid-template: 1fr / 1fr;
+
+    .images {
+      img {
+        width: 100%;
+      }
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-height: 800px;
+    text-align: center;
+    padding: 3rem 10%;
+
+    .content {
+      h3 {
+        margin-top: 2rem;
+        font-size: 3.5rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
 }
 </style>

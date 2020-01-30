@@ -41,7 +41,6 @@
 #works {
   background: #f9e8dc;
   .container {
-    padding: 2rem;
     display: grid;
     grid-template: 1fr / 1fr 1fr;
     grid-gap: 1rem;
@@ -73,5 +72,27 @@
       }
     }
   }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      .work {
+        img {
+          height: 250px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 960px;
+      .work {
+        img {
+          height: 300px;
+        }
+      }
+    }
+  }
+
 }
 </style>

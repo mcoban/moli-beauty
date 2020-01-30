@@ -3,8 +3,10 @@
     <Hero />
     <div class="slogan black">
       <div class="container">
-        <h3>Profesional Makeup</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium sit debitis nisi? Provident quos harum quod, rem id autem, temporibus, sed aperiam ad dolor ex eius laudantium dicta accusamus?</p>
+        <h3>Hizmetler</h3>
+        <p>
+          Cilt Bakımından, Lazer epilasyona, bölgesel incelmeden tırnak sanatına (nail art) ' ına kadar bir çok alanda hizmet vermekteyiz.
+        </p>
       </div>
     </div>
     <Works />
@@ -12,23 +14,22 @@
       <div class="container">
         <div class="offer">
           <img src="../assets/images/icons/fresh.svg" alt="Organik" height="72">
-          <h4>100% ORGANİK</h4>
-          <span>Lorem ipsum dolor sit amet.</span>
+          <h4>100% ORGANİK ve DOĞAL</h4>
+          <span>Kullandığımız tüm ürünler %100 organik ve doğal ürünlerdir.</span>
         </div>
         <div class="offer">
           <img src="../assets/images/icons/award.svg" alt="Sertifika" height="72">
           <h4>SERTİFİKALI MAKYÖZ</h4>
-          <span>Lorem ipsum dolor sit amet.</span>
+          <span>Makyözlerimiz, alanlarında uzmanlığını kanıtlamış sertifikalıdır.</span>
         </div>
         <div class="offer">
           <img src="../assets/images/icons/gift.svg" alt="Kullandıkça Kazan." height="72">
           <h4>KULLANDIKÇA KAZAN</h4>
-          <span>Lorem ipsum dolor sit amet.</span>
+          <span>Moli ile güzelleştikçe puan kazanın, biriken puanlarınızla özel fırsatlardan faydalanın.</span>
         </div>
       </div>
     </div>
     <Brands />
-    <Footer />
   </Layout>
 </template>
 
@@ -43,7 +44,7 @@ export default {
     Brands
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Moli Güzellik Merkezi'
   }
 }
 </script>
