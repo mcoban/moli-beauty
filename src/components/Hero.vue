@@ -10,9 +10,11 @@
     </div>
     <div class="content">
       <div class="inner">
-        <h3>Moli ile Güzelleş!</h3>
-        <p>Profesyonel makyajın doğru adresi Moli Beauty ile güzelliğinize güzellik katın.</p>
-        <!-- <a class="button">Read More</a> -->
+        <h3>Kendi Işığını Keşfet!</h3>
+        <!-- <p>Profesyonel makyajın doğru adresi Moli Beauty ile güzelliğinize güzellik katın.</p> -->
+        <p>
+          Ay ışığından esinlenerek yarattığımız markamız ile güleryüzlü ve alanında uzman ekibimiz, kadınlarımızın kendi ışığını keşfetmesini hedefliyor.
+        </p>
       </div>
     </div>
   </div>
@@ -22,8 +24,8 @@
 #hero {
   background: #f9e8dc;
   box-sizing: border-box;
-  padding: 2rem 3rem;
-  height: 600px;
+  padding: 1rem 2rem;
+  height: 500px;
   display: grid;
   grid-gap: 1rem;
   grid-template: 4fr 2fr / 1fr;
@@ -31,13 +33,14 @@
   .content {
     text-align: center;
     h3 {
-      font-size: 2.75rem;
+      font-size: 2rem;
       font-weight: 100;
       margin-bottom: 1rem;
     }
     p {
       font-size: 1rem;
-      line-height: 1.47;
+      line-height: 1.4;
+      text-align: justify;
       margin-bottom: 2rem;
     }
   }
@@ -50,9 +53,7 @@
     .image {
       text-align: center;
       img {
-        max-height: 100%;
         max-width: 100%;
-        height: 100%;
         object-fit: cover;
       }
     }
@@ -64,6 +65,7 @@
     .images {
       img {
         width: 100%;
+        max-height: 100%;
       }
     }
 
@@ -71,8 +73,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      h3 {
+        font-size: 2.5rem;
+      }
       p {
         margin-bottom: 0;
+        width: 80%;
+        margin: auto;
+        text-align: center;
       }
     }
   }
@@ -85,10 +93,14 @@
     .content {
       h3 {
         margin-top: 2rem;
-        font-size: 3.5rem;
+        font-size: 3rem;
       }
       p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 300;
+        width: 60%;
+        margin: auto;
+        text-align: center;
       }
     }
   }

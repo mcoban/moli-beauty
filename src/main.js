@@ -6,6 +6,7 @@ import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 
 import '~/assets/css/style.scss'
+//import '~/assets/js/whatsapp.js'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

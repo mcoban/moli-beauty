@@ -4,32 +4,28 @@
     <div class="slogan black">
       <div class="container">
         <h3>Hizmetler</h3>
-        <p>
-          Cilt Bakımından, Lazer epilasyona, bölgesel incelmeden tırnak sanatına (nail art) ' ına kadar bir çok alanda hizmet vermekteyiz.
-        </p>
       </div>
     </div>
     <Works />
     <div class="home-offers">
       <div class="container">
         <div class="offer">
-          <img src="../assets/images/icons/fresh.svg" alt="Organik" height="72">
-          <h4>100% ORGANİK ve DOĞAL</h4>
-          <span>Kullandığımız tüm ürünler %100 organik ve doğal ürünlerdir.</span>
+          <img src="../assets/images/icons/gift.svg" alt="Kullandıkça Kazan." height="72">
+          <h4>MOLICARD</h4>
+          <span>Moli ile güzelleştikçe puan kazanın, biriken puanlarınızla özel fırsatlardan faydalanın.</span>
         </div>
         <div class="offer">
           <img src="../assets/images/icons/award.svg" alt="Sertifika" height="72">
-          <h4>SERTİFİKALI MAKYÖZ</h4>
-          <span>Makyözlerimiz, alanlarında uzmanlığını kanıtlamış sertifikalıdır.</span>
+          <h4>UZMAN EKİP</h4>
+          <span>Ekibimiz, alanlarında uzmanlığını kanıtlamış ve sertifikalıdır.</span>
         </div>
         <div class="offer">
-          <img src="../assets/images/icons/gift.svg" alt="Kullandıkça Kazan." height="72">
-          <h4>KULLANDIKÇA KAZAN</h4>
-          <span>Moli ile güzelleştikçe puan kazanın, biriken puanlarınızla özel fırsatlardan faydalanın.</span>
+          <img src="../assets/images/icons/fresh.svg" alt="Organik" height="72">
+          <h4>ORGANİK ve DOĞAL</h4>
+          <span>Kullandığımız tüm ürünler sağlık bakanlığı onaylıdır.</span>
         </div>
       </div>
     </div>
-    <Brands />
   </Layout>
 </template>
 

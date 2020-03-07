@@ -3,11 +3,11 @@
     <div class="container">
       <div class="item">
         <img src="../assets/images/footer-logo.png" alt="Logo">
-        <p>Estetiğin ve güzelliğin adresi</p>
+
         <div class="social-icons">
-          <a href="#"><img src="../assets/images/icons/social/facebook.svg" alt="Facebook" height="30"></a>
-          <a href="#"><img src="../assets/images/icons/social/instagram.svg" alt="Instagram" height="30"></a>
-          <a href="#"><img src="../assets/images/icons/social/pinterest.svg" alt="Pinterest" height="30"></a>
+          <a href="https://www.facebook.com/molibeautycenter/" target="_blank"><img src="../assets/images/icons/social/facebook.svg" alt="Facebook" height="30"></a>
+          <a href="https://www.youtube.com/channel/UCoioyPmOo_CVxiYb2u8f1Rw" target="_blank"><img src="../assets/images/icons/social/youtube.svg" alt="Youtube" height="30"></a>
+          <a href="https://www.instagram.com/molibeautycenter/" target="_blank"><img src="../assets/images/icons/social/instagram.svg" alt="Instagram" height="30"></a>
         </div>
       </div>
       <div class="item contact">
@@ -28,15 +28,21 @@
         </div>
       </div>
     </div>
-    <div class="dark">
-      Moli Beauty bir Bimobil firması ürünüdür.
-    </div>
-
     <div class="call-button">
-      <a href="tel: 0850-304-6654"><img src="../assets/images/phone.svg" alt="Ara" height="16"> Hemen Ara!</a>
+      <a href="tel: 0850-304-6654"><img src="../assets/images/phone.svg" alt="Ara" height="16"> Bize Ulaşın</a>
     </div>
+    <Whatsapp />
   </footer>
 </template>
+
+<script>
+import Whatsapp from '~/components/Whatsapp.vue'
+export default {
+  components: {
+    Whatsapp
+  }
+}
+</script>
 
 <style lang="scss">
 footer {
@@ -65,7 +71,7 @@ footer {
             grid-template: 1fr / 1fr 10fr;
             padding: .25rem 0;
             span {
-              font-size: 1.1rem;
+              font-size: .9rem;
             }
           }
         }
@@ -73,7 +79,7 @@ footer {
 
       .title {
         color: #f9e8dc;
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         font-weight: 500;
         margin-bottom: 2rem;
       }
@@ -124,17 +130,19 @@ footer {
 
   .call-button {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #5f1767;
+    bottom: 24px;
+    left: 20px;
+    width: calc(50% - 40px);
+    background: #0084ff;
     color: #fff;
+    border-radius: 10px;
     
     a {
       display: block;
       text-align: center;
       padding: 15px 0;
       font-weight: 800;
+      font-size: 1.1rem;
     }
     @media screen and (min-width: 500px) {
       display: none;

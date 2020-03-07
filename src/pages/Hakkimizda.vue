@@ -3,7 +3,12 @@
     <div id="hakkimizda">
       <div class="container">
         <h1>Hakkımızda</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum quasi illo optio consequuntur nihil eum culpa quas. Culpa animi quisquam tempora sequi, debitis qui reiciendis voluptatem doloremque quasi quibusdam?</p>
+        <p>
+          Ay ışığından esinlenerek yapılan şık mimari tasarımımız, alanında uzman ve güler yüzlü ekibimiz ile Türkiye’de tek olmayı hedefliyoruz. 
+        </p>
+        <p>
+          Markamızın amacı; kadınlarımızın kendi ışığını keşfetmesini sağlamaktır. Sizler için özel olarak tasarlanmış merkezimizde tüm hijyen koşulları da en ince detayına kadar düşünülmüştür. Randevunuzu alın ve benzersiz bir kişisel bakım sürecinin tadını çıkartın. 
+        </p>
       </div>
     </div>
   </Layout>
@@ -18,6 +23,7 @@
   p {
     font-size: 1.2rem;
     line-height: 1.6;
+    margin-top: 20px;
   }
 }
 </style>

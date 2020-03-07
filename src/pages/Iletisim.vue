@@ -5,7 +5,7 @@
     </div>
     <div class="info">
       <div class="container">
-        <h1>İletişim Bilgileirmiz</h1>
+        <h1>İletişim Bilgilerimiz</h1>
         <div class="contact">
           <h4>Prof Dr Ahmet Taner Kışlalı mahallesi 2716 cadde No:4 Çankaya/Ankara</h4>
           <h4><a class="tel" href="tel: 0850-304-6654">Telefon: 0850-304-6654</a></h4>

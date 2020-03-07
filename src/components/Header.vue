@@ -9,10 +9,11 @@
           alt="Logo" />
       </a>
       <nav class="header-menu">
+        <a href="#" class="randevu">Randevu Al</a>
         <a @click="menuClicked = !menuClicked" :class="['menu-button', { 'clicked': menuClicked }]"><img src="../assets/images/menu.svg" alt="Mobile Menu" height="32"></a>
         <ul :class="{ 'block': menuClicked }">
+          <li><a href="#">Randevu Al</a></li>
           <li><a href="/hakkimizda/">Hakkımızda</a></li>
-          <li><a href="#hizmetler">Hizmetlerimiz</a></li>
           <!-- <li><a href="#">Galeri</a></li> -->
           <li><a href="/iletisim/">İletişim</a></li>
         </ul>
@@ -38,6 +39,9 @@ header {
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
+    .randevu {
+      display: none;
+    }
     .header-menu {
       margin-left: auto;
       .menu-button {
@@ -73,6 +77,22 @@ header {
             text-align: center;
           }
         }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .inner {
+      .randevu {
+        position: relative;
+        right: 30px;
+        background: #333;
+        bottom: 10px;
+        padding: 10px 18px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: .8rem;
+        display: inline-block;
       }
     }
   }

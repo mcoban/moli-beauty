@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 li {
   list-style-type: none;
   display: inline;
@@ -45,10 +46,12 @@ a.button {
 
 .slogan {
   text-align: center;
+  .container {
+    padding: 1rem 0;
+  }
   h3 {
-    font-size: 3rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    margin-bottom: 1.4rem;
   }
   p {
     font-size: 1.2rem;
@@ -78,7 +81,7 @@ a.button {
         margin-bottom: 1.5rem;
       }
       h4 {
-        font-size: 1.5rem;
+        font-size: 1.15rem;
         margin-bottom: 1rem;
       }
       span {
@@ -197,10 +200,20 @@ p, span, a {
 }
 
 
-body {
-  padding-bottom: 50px;
 
-  @media screen and (min-width: 500px) {
-    padding-bottom: 0;
-  }
+h1,h2,h3,h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.menu-button {
+  cursor: pointer;
+}
+
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
 }
